@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+:root {
+  --toastify-font-family: "Roboto" !important;
+  --toastify-color-success: #cbffb9 !important;
+  --toastify-color-error: #ffb9b9 !important;
+  --toastify-color-warning: #fffab9 !important;
+  --toastify-toast-width: 380px !important;
+  --toastify-toast-background: #fff !important;
+  --toastify-toast-min-height: 74px !important;
+  --toastify-toast-max-height: 400px !important;
+}
+
+h2 {
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  min-height: calc(100vh - 70px);
+}
+
+.toast-container {
+  box-shadow: none!important;
+  border: none !important;
+  border-radius: 15px !important;
+  color: #00000090 !important;
+}
+
+.account-button {
+  font-family: "Roboto";
+  display: inline-block;
+  background-color: #33333310;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.home-banner img {
+  width: 100%;
+}
+
+.picture-preview {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.password-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.forgot-password-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-password-link a {
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+
+footer {
+  background-color: #33333310;
+  color: #000000;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #33333310;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #000000;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.account-profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.form-container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #111;
+}
